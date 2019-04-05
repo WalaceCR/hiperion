@@ -1,0 +1,10 @@
+# Files #
+###################
+geckodriver.log
+*.pyc
+
+# Folders #
+###################
+.idea/
+src/__pycache__/
+src/tests/__pycache__/
