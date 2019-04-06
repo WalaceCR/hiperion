@@ -4,7 +4,6 @@ from webdriver_manager.firefox import GeckoDriverManager
 from src.data.config import settings
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 
 
 class Util():
@@ -29,9 +28,6 @@ class Util():
 
     def start_browser(self):
         self.driver.maximize_window()
-
-    def load_website(self):
-        self.driver.get(settings['url'])
 
     def goto_page(self):
         self.driver.get(settings['url'])
