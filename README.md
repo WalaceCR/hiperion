@@ -1,9 +1,9 @@
 # hiperion
-Projeto de automação utilizando Python + Selenium + Pytest
+Projeto de automação utilizando Python + Selenium
 na IDE de desenvolvimento Pycharm.
 
 # Rodando os testes
-Por padrão utilizamos o utilitário [behave](https://behave.readthedocs.io/en/latest/), se o mesmo já estiver instalado na sua máquina, basta rodar o comando abaixo:
+Por padrão utilizamos o utilitário [behave](https://behave.readthedocs.io/en/latest/), se o mesmo já estiver instalado na sua máquina, basta rodar o comando abaixo na raíz do projeto:
 
 behave src/test/features/feature_test.feature
 
